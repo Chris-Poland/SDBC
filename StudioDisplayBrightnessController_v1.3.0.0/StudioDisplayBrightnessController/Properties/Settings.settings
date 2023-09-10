@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="StudioDisplayBrightnessController.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AmbientLightGammaCorrectionFactor" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">2.301442</Value>
+    </Setting>
+    <Setting Name="AutomaticBrightnessLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="AutomaticBrightnessLevelFactor" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="AmbientLightGammaCorrection" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">681</Value>
+    </Setting>
+    <Setting Name="MaxMonitorBrightness" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="MinMonitorBrightness" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
