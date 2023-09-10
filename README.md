@@ -1,0 +1,2 @@
+# SDBC
+Studio Display Brightness Controller is an application that automatically controls the brightness of the Studio Display monitor using the built-in ambient light sensor. The application has been tested and works properly with a monitor that has firmware version 16.4. The author is not responsible for the operation of the application with firmware versions other than 16.4. The author has made every effort to ensure that the application works properly, however, he is not responsible for any damage caused by the incorrect use of this application.
