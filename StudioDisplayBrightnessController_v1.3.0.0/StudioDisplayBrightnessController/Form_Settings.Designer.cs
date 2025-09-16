@@ -87,6 +87,7 @@
             this.trackBar1.SmallChange = 100;
             this.trackBar1.TabIndex = 3;
             this.trackBar1.TickFrequency = 200;
+            this.trackBar1.Value = Properties.Settings.Default.MinMonitorBrightness;
             this.trackBar1.ValueChanged += new System.EventHandler(this.trackBar1_ValueChanged);
             // 
             // label3
@@ -119,6 +120,7 @@
             this.trackBar2.SmallChange = 100;
             this.trackBar2.TabIndex = 6;
             this.trackBar2.TickFrequency = 200;
+            this.trackBar2.Value = Properties.Settings.Default.MaxMonitorBrightness;
             this.trackBar2.ValueChanged += new System.EventHandler(this.trackBar2_ValueChanged);
             // 
             // label5
