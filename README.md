@@ -23,6 +23,6 @@ This step will install the driver needed to operate the monitor.
 Restart computer
 
 
-Unzip file: StudioDisplayBrightnessController_v1.3.0.0.zip from Release section
+Unzip file: StudioDisplayBrightnessController.zip from Release section
 
 Run program StudioDisplayBrightnessController.exe
