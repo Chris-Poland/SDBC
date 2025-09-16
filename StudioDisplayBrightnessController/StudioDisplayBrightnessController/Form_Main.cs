@@ -20,6 +20,9 @@ namespace StudioDisplayBrightnessController
     {
         private bool programStart = true;
 
+        private bool form_Main_DeactivateEvent = false;
+
+
 
         enum MonitorConnectionState
         {
@@ -136,17 +139,43 @@ namespace StudioDisplayBrightnessController
         {
             if (e.Button == MouseButtons.Left)
             {
-                if (Visible == false)
+                if (!form_Main_DeactivateEvent)
                 {
-                    Visible = true;
-                    timerUpdateInterface.Enabled = true;
-                }
-                else
-                {
-                    Visible = false;
-                    timerUpdateInterface.Enabled = false;
+                    if (Visible == false)
+                    {
+                        this.Show();
+                        this.Activate();
+                        ShowUI();
+                    }
                 }
             }
+        }
+
+        private void Form_Main_Deactivate(object sender, EventArgs e)
+        {
+            form_Main_DeactivateEvent = true;
+            timerHideWindow.Enabled = true;
+
+            HideUI();
+            this.Hide();
+        }
+
+        private void timerHideWindow_Tick(object sender, EventArgs e)
+        {
+            form_Main_DeactivateEvent = false;
+            timerHideWindow.Enabled = false;
+        }
+
+        private void ShowUI()
+        {
+            Visible = true;
+            timerUpdateInterface.Enabled = true;
+        }
+
+        private void HideUI()
+        {
+            Visible = false;
+            timerUpdateInterface.Enabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -259,6 +288,5 @@ namespace StudioDisplayBrightnessController
             }
         }
 
-       
     }
 }

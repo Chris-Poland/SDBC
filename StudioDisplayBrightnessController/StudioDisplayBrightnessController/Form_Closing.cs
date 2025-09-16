@@ -12,8 +12,8 @@ namespace StudioDisplayBrightnessController
 {
     public partial class Form_Closing : Form
     {
-        private static readonly int WIDTH = 350;
-        private static readonly int HEIGHT = 80;
+        private static readonly int WIDTH = 450;
+        private static readonly int HEIGHT = 100;
 
 
 

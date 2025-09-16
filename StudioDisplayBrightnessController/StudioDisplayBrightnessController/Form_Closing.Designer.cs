@@ -37,20 +37,20 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(12, 20);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.label1.Location = new System.Drawing.Point(10, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(326, 15);
+            this.label1.Size = new System.Drawing.Size(430, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Studio Display Brightness Controller is closing";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(12, 47);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(10, 53);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(326, 13);
+            this.label2.Size = new System.Drawing.Size(430, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Please wait...";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -62,17 +62,15 @@
             // 
             // Form_Closing
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(350, 80);
+            this.ClientSize = new System.Drawing.Size(450, 100);
             this.ControlBox = false;
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(238)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "Form_Closing";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Studio Display Brightness Controller";
